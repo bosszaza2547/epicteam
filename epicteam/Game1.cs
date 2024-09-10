@@ -16,6 +16,7 @@ namespace epicteam
         private int D;
         private int E;
         private int F;
+        private int G;
 
 
         int num2 = 1;
