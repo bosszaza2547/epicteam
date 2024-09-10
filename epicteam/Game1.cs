@@ -14,6 +14,7 @@ namespace epicteam
         private int D;
         private int E;
         private int F;
+        private int G;
 
 
         public Game1()
