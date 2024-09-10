@@ -10,6 +10,13 @@ namespace epicteam
         private SpriteBatch _spriteBatch;
         int num = 5;
         bool run = false;
+        private int A;
+        private int B;
+        private int C;
+        private int D;
+        private int E;
+        private int F;
+
 
         public Game1()
         {
