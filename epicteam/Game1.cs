@@ -18,6 +18,7 @@ namespace epicteam
         private int F;
 
 
+        int num2 = 1;
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
