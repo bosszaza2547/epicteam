@@ -8,6 +8,7 @@ namespace epicteam
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+        bool run = false;
 
         public Game1()
         {
@@ -26,7 +27,7 @@ namespace epicteam
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
-
+            Iran();
             // TODO: use this.Content to load your game content here
         }
 
@@ -47,6 +48,10 @@ namespace epicteam
             // TODO: Add your drawing code here
 
             base.Draw(gameTime);
+        }
+        void Iran()
+        {
+            run = true;
         }
     }
 }
