@@ -8,7 +8,7 @@ namespace epicteam
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
-
+        int num = 1;
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
