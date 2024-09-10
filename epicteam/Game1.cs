@@ -8,6 +8,13 @@ namespace epicteam
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+        private int A;
+        private int B;
+        private int C;
+        private int D;
+        private int E;
+        private int F;
+
 
         public Game1()
         {
